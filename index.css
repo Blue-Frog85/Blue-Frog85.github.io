@@ -3,24 +3,24 @@ body {
     background: #FFF8E5;
     font-family: 'Poppins', sans-serif;
     margin: auto;
-    max-width: 1200px;
-  }
-  
-  h1 {
+    max-width: 1300px;
+}
+
+h1 {
     color: #00A19D;
     font-size: 65px;
     line-height: 1.2;
     margin: 50px;
     margin-bottom: 0px;
-  }
-  
-  .tooltip {
+}
+
+.tooltip {
     position: relative;
     display: inline-block;
     color: #FFB344;
-  }
-  
-  .tooltip .tooltiptext {
+}
+
+.tooltip .tooltiptext {
     visibility: hidden;
     width: 130px;
     background-color: #E05D5D;
@@ -34,9 +34,9 @@ body {
     z-index: 1;
     top: 25px;
     left: 110%;
-  }
-  
-  .tooltip .tooltiptext::after {
+}
+
+.tooltip .tooltiptext::after {
     content: "";
     position: absolute;
     top: 50%;
@@ -45,26 +45,27 @@ body {
     border-width: 5px;
     border-style: solid;
     border-color: transparent #E05D5D transparent transparent;
-  }
-  
-  .tooltip:hover .tooltiptext {
+}
+
+.tooltip:hover .tooltiptext {
     visibility: visible;
-  }
-  
-  h3 {
+}
+
+h3 {
     color: #E05D5D;
     font-size: 20px;
     line-height: 1.2;
     margin: 0px 50px;
-  }
-  
-  h2 {
+}
+
+h2 {
     color: #FFB344;
-    margin-right: 30px;
+    margin-right: 40px;
     text-align: right;
-  }
-  
-  .html, .css {
+}
+
+.html,
+.css {
     color: #FFF8E5;
     background: #E05D5D;
     border-radius: 10px;
@@ -77,16 +78,47 @@ body {
     text-align: center;
     transition: transform 1s;
     width: 50px;
-    }
-  
-  .html:hover, .css:hover {
-    transform: rotate(360deg);
-  }
+}
 
-    p {
+.html:hover,
+.css:hover {
+    transform: rotate(360deg);
+}
+
+p {
     color: #00A19D;
     font-size: 15px;
     line-height: 1.5;
     margin: 4%;
     text-align: justify;
-  }
+}
+
+ul {
+    background-color: #E05D5D;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+li {
+    float: left;
+    }
+
+li a {
+    color: #FFF8E5;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #FFF8E5;
+    color: #00A19D;
+}
+
+.active {
+  background: #00A19D;
+  overflow: hidden;
+}
