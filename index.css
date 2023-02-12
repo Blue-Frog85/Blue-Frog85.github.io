@@ -81,14 +81,14 @@ h2 {
     background: #1710C3;
     border-radius: 10px;
     display: inline-block;
-    font-size: 18px;
-    height: 20px;
+    font-size: 20px;
+    height: 30px;
     line-height: 1.2;
     margin: 5%;
     padding: 8px;
     text-align: center;
     transition: transform 1s;
-    width: 50px;
+    width: 55px;
 }
 
 p {
