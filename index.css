@@ -17,7 +17,7 @@ h1 {
 .tooltip {
     position: relative;
     display: inline-block;
-    color: #006F62;
+    text-decoration: underline;
 }
 
 .tooltip .tooltiptext {
@@ -51,8 +51,12 @@ h1 {
     visibility: visible;
 }
 
+.tooltip:hover {
+  text-decoration: none;
+}
+
 h3 {
-    color: #933500;
+    color: #006F62;
     font-size: 20px;
     line-height: 1.2;
     margin: 0px 50px;
@@ -61,7 +65,7 @@ h3 {
 h2 {
     color: #1710C3;
     margin-right: 40px;
-    text-align: right;
+    text-align: center;
 }
 
 .html,
