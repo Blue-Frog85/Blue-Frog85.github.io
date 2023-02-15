@@ -8,13 +8,13 @@
     margin: 4%;
 }
 
-a {
+.list a {
     color: #1710C3;
     text-align: center;
     text-decoration: none;
 }
 
-a:hover {
+.list a:hover {
         color: #006F62;
         text-decoration: underline;
 }
