@@ -12,9 +12,14 @@ header {
   text-align: center;
 }
 nav a {
-  color: white;
-  margin: 0 10px;
-  text-decoration: none;
+  color: #ffffff;
+  padding: 0.5em 1em;
+}
+
+nav a:hover {
+  background-color: #1abc9c; 
+  color: #ffffff; 
+  border-radius: 4px;
 }
 .tooltip {
   position: relative;
@@ -45,6 +50,16 @@ nav a {
 .tooltip:hover .tooltiptext {
   visibility: visible;
   opacity: 1;
+}
+a {
+  color: #1abc9c;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #16a085;
+  text-decoration: underline;
 }
 main {
   padding: 2em;
