@@ -31,12 +31,14 @@
   }
   
   .article-container img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 1em auto;
-    border-radius: 6px;
-  }
+  max-width: 100%;
+  height: auto;
+  max-height: 500px;
+  display: block;
+  margin: 1em auto;
+  border-radius: 6px;
+  object-fit: contain;
+}
   
   .back-link {
     display: inline-block;
