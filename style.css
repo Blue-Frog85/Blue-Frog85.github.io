@@ -67,6 +67,30 @@ a:hover {
 main {
   padding: 2em;
 }
+.writing-sample {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+}
+
+.writing-sample h3 {
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.writing-sample p {
+  margin: 0.5rem 0;
+}
+
+.writing-sample a {
+  color: #1abc9c;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.writing-sample a:hover {
+  color: #16a085;
+  text-decoration: underline;
+}
 footer {
   background: #eee;
   text-align: center;
