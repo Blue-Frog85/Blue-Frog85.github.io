@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>iPhone XR Setup Guide</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .article-container {
+      max-width: 700px;
+      margin: 40px auto;
+      padding: 20px;
+      background: #ffffff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    }
+    .article-container h1, h2, h3 {
+      color: #2c3e50;
+    }
+    .article-container p {
+      line-height: 1.6;
+      margin: 1em 0;
+    }
+    .back-link {
+      display: inline-block;
+      margin-bottom: 20px;
+      color: #1abc9c;
+      text-decoration: none;
+    }
+    .back-link:hover {
+      color: #16a085;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="article-container">
+    <a href="writing.html" class="back-link">&larr; Back to Writing Samples</a>
+
+    <h1>iPhone XR Setup Guide</h1>
+
+    <h2>Overview</h2>
+    <p>This guide is intended to assist with the initial setup of a business-issued iPhone XR.</p>
+    <p>Sections:
+      <ul>
+        <li>Basic Phone Overview</li>
+        <li>Initial Setup</li>
+        <li>Manual Setup</li>
+        <li>Transferring Data</li>
+        <li>Final Steps</li>
+      </ul>
+    </p>
+
+    <h2>Prerequisites</h2>
+    <ul>
+      <li>New iPhone XR</li>
+      <li>Wi-Fi connectivity</li>
+      <li>Old business iPhone (if applicable)</li>
+    </ul>
+
+    <h2>iPhone Layout</h2>
+    <p>Below is an image detailing some basic parts and features of the physical phone.  For this guide you will be using the power/lock button.  Please refer to this guide as needed should future guides refer to the other detailed features.</p>
+    <img src="iPhone XR Layout.png" alt="iPhone XR Layout with notated features">
+    
+    <h2>Initial Setup</h2>
+    <h3>Powering on the Phone</h3>
+    <p>To power on the phone for the first time, press and hold the power/lock button until the Apple logo appears on the screen.  After the logo appears, a welcome screen will appear, cycling through the word “Hello” in various languages.</p>
+
+    <h3>Setting up the Phone</h3>
+    <p>On that initial screen, slide your finger up from the bottom center of the screen.  This will take you to a list of languages where you can select your preferred language and then select next.</p>
+    <img src="XR Initial Screen.jpg" alt="iPhone XR Hello screen and language select screen">
+    <p>After selecting your language, your phone will present you with a Quick Start screen.  While this is a viable option it is recommended in the case of this phone to select the “Set Up Manually” option found at the bottom of the screen.</p>
+    <img src="XR Quick Start Screen.jpg" alt="iPhone XR Quick Start screen">
+    
+    <h2>Manual Setup</h2>
+    <p>After selecting “Set Up Manually”  you will be prompted to select a Wi-Fi Network.</p>
+    <img src="XR Choose WiFi Network.jpg" alt="iPhone XR Choose a WiFi Network Screen">
+    <p>It is advised to use a normal internet based Wi-Fi connection.  If you happen to be in the office, you will use the local Guest Wi-Fi.</p>
+    <p>After successfully connecting to the Wi-Fi network, the phone will begin the setup process.  You will need to wait for your phone to prompt you with a new screen.  One of those screens with be a notice about data and privacy. </p>
+    <p>On the Face ID and Touch ID screen, select “Set Up Later in Settings”  these methods of unlocking your phone are time consuming, and may be less secure than a strong pass-code, which is required to access work applications.</p>
+    <img src="XR Face ID and Passcode Screen.jpg" alt="iPhone XR Face ID and Passcode Screen">
+    <p>When creating the pass-code you will want to ensure it is a number you can remember.  Without your pass-code you cannot access your phone and there is not a way to recover it.</p>
+
+    <h2>Transferring Data</h2>
+    <p>On the Apps & Data screen, there are several options on how to transfer data from an old business iPhone to a new one.  It is advised to either select the option “Transfer Directly from iPhone” or “Don’t Transfer Apps & Data”.</p>
+    <img src="XR Apps and Data Screen.jpg" alt="iPhone XR Apps and Data Screen">
+    <h3>Transfer Directly from iPhone</h3>
+    <p>For this process, the old business iPhone will need to be near by and be on.  Follow the on screen prompts on the new phone to complete the transfer.  This process will most likely involve having the old phone near the new phone, and or the need to scan a QR from one phone with the other.</p>
+    <h3>Don't Transfer Apps & Data</h3>
+    <p>Selecting this option will require an Apple ID.  It is advised that the Apple ID you use on this phone is different from your personal one.  Using the same ID on two different devices can cause issues with calls and texts along with personal and business information crossing between the two devices.</p>
+    <p>If you have any issues with Apple ID or accessing your Apple account, Apple support can be reached at (800) 692-7753.</p>
+    <img src="XR Apple ID Screen.jpg" alt="iPhone XR Apple ID Screen">
+
+    <h2>Final Steps</h2>
+    <p>When presented with the Terms and Conditions, please review them before agreeing.  Depending on the selections you made in the previous steps, there will be few additional that you will be prompted with, such as setting up Apple Pay and Siri.  It is recommended to set those up later.</p>
+    <p>Eventually, a “Keep Your iPhone Up to Date” screen will come up.  Select “Install Updates Manually” this will prevent automatic updates from occurring which could potentially interfere with work applications.</p>
+    <img src="XR Keep iPhone Up To Date.jpg" alt="iPhone XR Keep your iPhone Up to Date Screen">
+    <p>After unlocking the phone, a few more onscreen prompts may appear, such as “Screen Time” which you can option to “set up later”.  There will also be a few screens walking you through the new gesture features that are built into the phone, which allows you to access some basic commands on the phone.</p>
+    <p>Finally, there will be a prompt to swipe up to get started.  At this point the phone is now ready to use for calls and texts.  If you selected to transfer your apps and data from your old device, some of the applications may still be loading and will take a few more minutes to fully load.  However, you can continue to configure your phone for work setting up and installing work applications.  Please refer to the appropriate guides designated for each work application.</p>
+  </div>
+  <footer style="font-size: 0.85em; color: #666; margin-top: 40px;">
+    Created by Misheal Crocker | Originally created: 2019 | Last updated: June 14, 2025
+  </footer>
+</body>
+</html>
