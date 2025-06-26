@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mobile Phone Activation Guide</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="article.css" />
+</head>
+<body>
+  <div class="article-container">
+    <a href="writing.html" class="back-link">&larr; Back to Writing Samples</a>
+
+    <h1>Mobile Phone Activation Guide</h1>
+
+    <h2>Overview</h2>
+    <p>This guide is intended to assist end users who call in with one of the following issues:</p>
+        <ul>
+        <li>Cannot activate a new phone</li>
+        <li>New phone is not receiving calls or a signal</li>
+        </ul>
+    
+    <h2>Cause</h2>
+    <p>This issue typically stems from two main causes:</p>
+    <ol>
+      <li>The phone is already activated</li>
+      <li>The user failed to activate the new phone within the 30-day activation window</li>
+    </ol>
+
+    <h2>Procedure</h2>
+    <ol>
+      <li>Request the IMEI/MEID and ICCID of the new phone.
+    <ul>
+      <li>These can be found on the packaging of the new phone, if the user still has it.</li>
+      <li>They can also be found under Settings > General > About on the device.</li>
+    </ul></li>
+      <li>Ask for the user’s mobile number and look it up in the <a href="https://www.business.att.com/login-portal.html">AT&T Premier website</a>.</li>
+      <li>If the IMEI/MEID and ICCID match what's listed, the phone is already activated:
+    <ul>
+      <li>Instruct the user to power off the phone for 5 minutes, then power it back on.</li>
+      <li>If the issue persists, escalate to IT Tier 2.</li>
+    </ul></li>
+      <li>If the IMEI/MEID and ICCID do not match, click “Change Device IMEI/SIM.”</li>
+      <li>Enter the correct information.
+    <ul>
+      <li>Ensure the tick boxes next to the changed values are checked before clicking Next.</li>
+    </ul></li>
+      <li>Review and confirm the presented information.</li>
+      <li>When prompted about using a digital SIM, choose to use the SIM you entered.</li>
+      <li>On the confirmation page, click to complete the process.</li>
+      <li>A Request ID will be presented, confirming the update.
+    <ul>
+      <li>Have the user turn the phone off for 5 minutes, then power it back on.</li>
+    </ul></li>
+      <li>If the phone still cannot make or receive calls after rebooting, escalate to IT Tier 2.</li>
+    </ol>    
+  <footer>
+    Created by Misheal Crocker | Originally created: 2019 | Last updated: June 14, 2025
+  </footer>
+  </body>
+</html>
