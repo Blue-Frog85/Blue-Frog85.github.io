@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Missing Teams Add-in in Outlook</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="article.css" />
+</head>
+<body>
+  <div class="article-container">
+    <a href="writing.html" class="back-link">&larr; Back to Writing Samples</a>
+
+    <h1 id="top">Missing Teams Add-in in Outlook</h1>
+
+    <h2>Overview</h2>
+    <p>This guide is intended to assist users in restoring the Microsoft Teams Add-in if it is missing from Outlook.</p>
+
+    <h2>Procedure</h2>
+    <ol>
+      <li>Close Outlook completely.</li>
+
+      <li>Locate the Teams icon in your system tray (near the date and time).
+        <ul>
+          <li>
+            Right-click the icon and select <strong>“Quit.”</strong>
+            <br>
+            <img src="Task Tray Teams Image.jpg" alt="Windows task tray with Teams icon">
+            <br>
+            <img src="Task Tray Teams Quit.jpg" alt="Teams icon right-click menu with Quit option">
+          </li>
+        </ul>
+      </li>
+
+      <li>Reopen Microsoft Teams.</li>
+
+      <li>
+        In the top-right corner of Teams, click your profile icon and select <strong>"Sign out."</strong>
+        <br>
+        <img src="Teams Quit.jpg" alt="Teams with profile icon and Sign out option">
+      </li>
+
+      <li>
+        Once signed out, sign back into Teams.
+        <br>
+        <img src="Teams Sign in.jpg" alt="Microsoft Teams sign-in window">
+      </li>
+
+      <li>Send a message to a colleague or contact via Teams.</li>
+
+      <li>Open Outlook again.</li>
+
+      <li>
+        The Teams Add-in should now appear in Outlook.
+        <br>
+        <img src="Teams Addin.jpg" alt="Teams Add-in visible in Outlook interface">
+      </li>
+
+      <li>If the issue persists, please contact the Service Desk for further assistance.</li>
+    </ol>
+
+    <p style="text-align: right;">
+      <a href="#top" class="back-link">↑ Back to Top</a>
+    </p>
+  </div>
+
+  <footer>
+    Created by Misheal Crocker | Originally created: 2020 | Last updated: June 28, 2025
+  </footer>
+
+  <a href="#top" class="scroll-top-btn" id="scrollTopBtn" title="Back to top">↑</a>
+
+  <script>
+    window.addEventListener("scroll", function () {
+      const scrollBtn = document.getElementById("scrollTopBtn");
+      const scrolledDown = window.scrollY > 200;
+      const nearBottom =
+        window.innerHeight + window.scrollY >= document.body.offsetHeight - 100;
+
+      if (scrolledDown && !nearBottom) {
+        scrollBtn.style.display = "block";
+      } else {
+        scrollBtn.style.display = "none";
+      }
+    });
+  </script>
+</body>
+</html>
