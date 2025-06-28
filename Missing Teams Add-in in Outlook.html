@@ -68,21 +68,5 @@
     Created by Misheal Crocker | Originally created: 2020 | Last updated: June 28, 2025
   </footer>
 
-  <a href="#top" class="scroll-top-btn" id="scrollTopBtn" title="Back to top">↑</a>
-
-  <script>
-    window.addEventListener("scroll", function () {
-      const scrollBtn = document.getElementById("scrollTopBtn");
-      const scrolledDown = window.scrollY > 200;
-      const nearBottom =
-        window.innerHeight + window.scrollY >= document.body.offsetHeight - 100;
-
-      if (scrolledDown && !nearBottom) {
-        scrollBtn.style.display = "block";
-      } else {
-        scrollBtn.style.display = "none";
-      }
-    });
-  </script>
-</body>
+  </body>
 </html>
